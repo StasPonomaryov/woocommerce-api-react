@@ -1,0 +1,25 @@
+.products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product {
+  display: flex;  
+  gap: 0.5rem;
+}
+
+.product-image {
+  flex: 0 0 50%;
+}
+
+.product-image img,
+.product-image svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-name {
+  font-weight: bold;
+  text-align: left;
+}
